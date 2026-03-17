@@ -1,7 +1,5 @@
 # Interpretability without actionability: mechanistic intervention methods fail to correct clinical triage errors in language models
 
-Analysis pipeline for the manuscript submitted to *The Lancet Digital Health* (Research Article).
-
 **Authors:** Basu S, Patel SY, Sheth P, Muralidharan B, Elamaran N, Kinra A, Morgan J, Batniji R
 
 ## Overview
@@ -83,22 +81,3 @@ Key parameters in `config.py`:
 ### Data
 - **Physician-created vignettes** (N=200): 18 hazard categories, adjudicated by a board-certified physician (JM)
 - **Real-world encounter notes** (N=200): De-identified Medicaid patient encounter messages
-
-## Citation
-
-```bibtex
-@article{basu2026interpretability,
-  title={Interpretability without actionability: mechanistic intervention
-         methods fail to correct clinical triage errors in language models},
-  author={Basu, Sanjay and Patel, Sadiq Y. and Sheth, Parth and
-          Muralidharan, Bhairavi and Elamaran, Namrata and
-          Kinra, Aakriti and Morgan, John and Batniji, Rajaie},
-  journal={The Lancet Digital Health},
-  year={2026},
-  note={Under review}
-}
-```
-
-## License
-
-Apache License 2.0.
