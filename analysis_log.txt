@@ -1,0 +1,22 @@
+Loading concept weight data...
+  Base: (400, 33732), Demo: (600, 33732)
+
+=== Effective Number of Independent Tests ===
+  Positive eigenvalues: 565
+  N_eff (95% variance): 3
+  N_eff (Li & Ji): 5
+  PC1 variance: 81.5%
+  Top 5 PCs: 99.5%
+
+=== Differential Activation Analysis ===
+  race_black: 170 paired vignettes
+Traceback (most recent call last):
+  File "/Users/sanjaybasu/waymark-local/packaging/concept_attribution_triage/03b_analyze_concept_weights.py", line 435, in <module>
+    main()
+    ~~~~^^
+  File "/Users/sanjaybasu/waymark-local/packaging/concept_attribution_triage/03b_analyze_concept_weights.py", line 361, in main
+    diff_df = differential_activation_analysis(demo_weights, meta)
+  File "/Users/sanjaybasu/waymark-local/packaging/concept_attribution_triage/03b_analyze_concept_weights.py", line 150, in differential_activation_analysis
+    "q_value_fdr": float(q_values[j]),
+                         ~~~~~~~~^^^
+KeyError: 0

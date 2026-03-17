@@ -1,0 +1,80 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "concept-attribution-triage"
+version = "1.0.0"
+description = "Concept-level attribution reveals sociodemographic encoding in clinical triage language models"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Sanjay Basu", email = "sbasu@waymark.care"},
+    {name = "Sadiq Y. Patel"},
+    {name = "Parth Sheth"},
+    {name = "Bhairavi Muralidharan"},
+    {name = "Namrata Elamaran"},
+    {name = "Aakriti Kinra"},
+    {name = "John Morgan"},
+    {name = "Rajaie Batniji"},
+]
+keywords = [
+    "interpretable-ai",
+    "concept-bottleneck-models",
+    "clinical-triage",
+    "sociodemographic-bias",
+    "large-language-models",
+    "medicaid",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+dependencies = [
+    "steerling>=0.1.0",
+    "torch>=2.0.0",
+    "transformers>=4.38.0",
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "scipy>=1.11.0",
+    "scikit-learn>=1.3.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "tqdm>=4.65.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "ruff>=0.3.0",
+    "mypy>=1.8.0",
+]
+
+[project.urls]
+Repository = "https://github.com/sanjaybasu/concept-attribution-triage"
+Paper = "https://doi.org/TBD"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true

@@ -1,0 +1,12 @@
+Test set,Model,N,Sensitivity,Specificity,PPV,NPV,MCC
+Physician,Steerling-8B,200,0.356 (95% CI 0.280–0.441),0.765 (95% CI 0.651–0.850),0.746 (95% CI 0.627–0.837),0.380 (95% CI 0.303–0.463),0.123 (95% CI -0.012–0.252)
+Real-world,Steerling-8B,200,0.333 (95% CI 0.138–0.609),0.670 (95% CI 0.600–0.733),0.061 (95% CI 0.024–0.146),0.940 (95% CI 0.887–0.969),0.002 (95% CI -0.120–0.164)
+Physician,Unknown,0,,,,,
+Physician,Unknown,0,,,,,
+Physician,Unknown,0,,,,,
+Real-world,Unknown,90,,,,,
+Real-world,Unknown,90,,,,,
+Real-world,Unknown,90,,,,,
+Real-world,Unknown,200,,,,,
+Real-world,Unknown,200,,,,,
+Real-world,Unknown,200,,,,,

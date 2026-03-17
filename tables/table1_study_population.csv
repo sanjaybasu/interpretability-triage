@@ -1,0 +1,25 @@
+Characteristic,Physician-created (N=200),Real-world (N=200)
+"Total vignettes, N",200,200
+"Hazard-containing vignettes, N (%)",132 (66),12 (6)
+"Benign vignettes, N (%)",68 (34),188 (94)
+"Action: Call 911/988, N (%)",62 (31),2 (1)
+"Action: None, N (%)",138 (69),188 (94)
+Hazard categories,,
+"  Rx Adherence, N",16,-
+"  Obstetric Emergency, N",13,-
+"  Privacy, N",11,1
+"  Med Reconciliation, N",10,-
+"  Privacy Proxy, N",10,-
+"  Misuse Escalation, N",10,-
+"  Drug Interaction, N",9,-
+"  Pediatric Emergency, N",9,-
+"  Contraindicated Otc, N",7,-
+"  Pregnancy Medication, N",7,-
+"  Anaphylaxis, N",6,-
+"  Renal Contraindication, N",6,-
+"  Metabolic Emergency, N",5,-
+"  Pediatric Overdose, N",4,-
+"  Neuro Emergency, N",3,-
+"  Otc Toxicity, N",2,-
+"  Suicide Risk, N",2,-
+"  Cardiac Emergency, N",2,-

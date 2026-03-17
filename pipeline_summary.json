@@ -1,0 +1,99 @@
+{
+  "status": "completed",
+  "elapsed_hours": 2.448845499422815,
+  "steps": [
+    {
+      "step": 1,
+      "script": "20_gemma_base_inference.py",
+      "status": "ok",
+      "elapsed_h": 0.49965339872572156
+    },
+    {
+      "step": 2,
+      "script": "21_sae_steering.py",
+      "status": "failed"
+    },
+    {
+      "step": 3,
+      "script": "22_logit_lens.py",
+      "status": "failed"
+    },
+    {
+      "step": 4,
+      "script": "23_probing_tsv.py",
+      "status": "failed"
+    }
+  ],
+  "output": [
+    "hidden_dim_proxy_labels.json",
+    "physician_evaluation",
+    "concept_analysis_summary.json",
+    "detection_discrimination.json",
+    "causal_correction_mcnemar.csv",
+    "causal_correction_summary.csv",
+    "concept_l1_analysis.json",
+    "steerling_base_results.json",
+    "causal_correction_results_physician_only.json",
+    "concept_differential_activation_leace_diff.csv",
+    "top_global_concepts.csv",
+    "hidden_to_concept_mapping.csv",
+    "pca_coordinates.csv",
+    "top_concepts_by_category.csv",
+    "concept_correction_targets.json",
+    "pca_summary.json",
+    "demo_concept_weights_meta.json",
+    "concept_distribution_analysis.json",
+    "causal_correction_results.json",
+    "differential_concepts.csv",
+    "concept_proxy_labels.json",
+    "inlp_trajectory.json",
+    "effective_n_tests.json",
+    "concept_hazard_summary.csv",
+    "concept_differential_activation_inlp.csv",
+    "nlp_response_analysis.json",
+    "concept_pca_summary.json",
+    "concept_permutation_test.json",
+    "l1_sensitivity.csv",
+    "triage_disparities.csv",
+    "demographic_variation_results.json",
+    "concept_differential_activation.csv",
+    "analysis_summary.json",
+    "permutation_test.json",
+    "concept_hazard_alignment.json",
+    "tp_correction_results.json",
+    "causal_correction_key_results.json",
+    "concept_hazard_detail.csv",
+    "concept_erasure_results.json",
+    "gemma2_base_results.json",
+    "logit_lens_results.json",
+    "logit_lens_summary.json",
+    "critical_layers.json",
+    "activation_patching_results.json",
+    "activation_patching_summary.json",
+    "probe_results.json",
+    "tsv_analysis.json"
+  ],
+  "tables": [
+    "table4_differential_concepts.csv",
+    "table1_study_population.csv",
+    "table3_concept_alignment.csv",
+    "table2_baseline_performance.csv",
+    "table3_top_concepts.csv",
+    "table4_causal_correction.csv",
+    "table2_triage_performance.csv"
+  ],
+  "figures": [
+    "figure2_correction_disruption.pdf",
+    "figure2_concept_heatmap.png",
+    "figure3_demographic_bias.pdf",
+    "figure3_demographic_bias.png",
+    "figure1_dose_response.png",
+    "figure2_concept_heatmap.pdf",
+    "figure2_correction_disruption.png",
+    "figure1_dose_response.pdf",
+    "figure1_study_design.pdf",
+    "figure3_category_heatmap.pdf",
+    "figure1_study_design.png",
+    "figure3_category_heatmap.png"
+  ]
+}

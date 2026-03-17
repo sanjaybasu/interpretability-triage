@@ -1,0 +1,11 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Total FDR-significant bias concepts: 3895
+  Race-associated: 3895
+
+Device: mps
+Loading Steerling-8B...
+Using 30/200 cases for steering experiments
+
+Total inferences: 450
+Cases:   0%|          | 0/30 [00:00<?, ?it/s]Cases:   3%|▎         | 1/30 [43:41<21:06:50, 2621.05s/it]/opt/homebrew/Cellar/python@3.13/3.13.9_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/resource_tracker.py:324: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/mp-7r5jn0gv'}
+  warnings.warn(
